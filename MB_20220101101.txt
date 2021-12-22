@@ -1,0 +1,11 @@
+PNR: MB_20220101101
+Train NO: 3
+Train Name: TheBangaloreExpress
+From: Mysore
+To: Bangalore
+Travel Date: 01/01/2022
+
+Passengers:
+name			age		gender		fare
+Shree			23		M		  400.0
+Total Price:400.0
