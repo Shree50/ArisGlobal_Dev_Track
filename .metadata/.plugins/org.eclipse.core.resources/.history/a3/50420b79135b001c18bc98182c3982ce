@@ -1,0 +1,5 @@
+package com.aris.login;
+
+public class LoginController {
+
+}

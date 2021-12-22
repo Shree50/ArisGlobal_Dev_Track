@@ -1,0 +1,5 @@
+package com.aris.model;
+
+public class LoginDetailsModel {
+
+}

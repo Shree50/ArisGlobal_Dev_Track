@@ -1,0 +1,10 @@
+package com.aris.day1;
+
+public class MethodOverriding extends BaseClass
+{
+	@Override
+	void baseMethod()
+	{
+		System.out.println("child class");
+	}
+}

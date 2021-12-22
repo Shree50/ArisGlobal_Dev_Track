@@ -1,0 +1,5 @@
+package com.aris.dao;
+
+public class LoginDAOImpl {
+
+}

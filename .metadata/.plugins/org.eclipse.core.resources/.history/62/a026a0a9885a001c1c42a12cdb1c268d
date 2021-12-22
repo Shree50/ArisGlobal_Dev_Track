@@ -1,0 +1,18 @@
+package com.aris.servelts;
+
+public class AddServlets extends HttpServalt
+{
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String no1=req.getParameter("num1");
+		String no2=req.getParameter("num2");
+		
+		int c = Integer.parseInt(no1)+Integer.parseInt(no2);
+		PrintWriter out=resp.getWriter();
+		out.println("Sum is"+ c);
+		super.doGet(req, resp);
+	}
+
+}

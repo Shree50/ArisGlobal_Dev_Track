@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table>
+ <tr>
+  <th>Number 1 :</th>
+  <th><%=request.getAttribute("number1") %></th>
+ </tr>
+  <th>Number 2 :</th>
+  <th><%=request.getAttribute("number2") %></th>
+ </tr>
+ 
+   <th>Result :</th>
+  <th>
+  <% 
+  
+  String no1=request.getAttribute("number1").toString();
+  String no2=request.getAttribute("number2").toString();
+  out.println(Integer.parseInt(no1)+Integer.parseInt(no2));
+  
+  %></th>
+ </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+package com.aris.util;
+
+public class StringConstant 
+{
+	public static final String url="jdbc:mysql://localhost:3306/student";
+	public static final String username="admin";
+	public static final String password="admin";
+	public static final String loginQuery="select * from login";
+	
+	public static final String mysqlLoadingClass="com.mysql.jdbc.Driver";
+}
